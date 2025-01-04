@@ -1,0 +1,4 @@
+INSERT INTO customer_management.customer (name, email, age, gender, address, phoneNumber)VALUES ('John Doe', 'john.doe@example.com', 30, 'Male', '123 Elm Street, Springfield', '555-1234');
+INSERT INTO customer_management.customer (name, email, age, gender, address, phoneNumber)VALUES ('Jane Smith', 'jane.smith@example.com', 28, 'Female', '456 Oak Avenue, Metropolis', '555-5678');
+INSERT INTO customer_management.customer (name, email, age, gender, address, phoneNumber)VALUES ('Alex Johnson', 'alex.johnson@example.com', 35, 'Other', '789 Maple Road, Gotham', '555-9101');
+INSERT INTO customer_management.customer (name, email, age, gender, address, phoneNumber)VALUES ('Emily Davis', 'emily.davis@example.com', 26, 'Female', '321 Pine Lane, Star City', '555-1122');
