@@ -21,7 +21,8 @@ public class SchedulerConfig {
   private Job job;
 
 
-  @Scheduled(fixedDelay = 10000, initialDelay = 2000)
+  //@Scheduled(fixedDelay = 10000, initialDelay = 2000)
+  @Scheduled(cron = "* * * * * *")
   public void scheduleJob() throws Exception {
     log.info("Job scheduler started to work");
     JobParameters jobParameters = new JobParametersBuilder()
